@@ -1,0 +1,35 @@
+#img-fluid {
+    width: 21px;
+    cursor: pointer;
+    margin: 0px 0px 0px 9px;
+}
+label.head {
+    color: #5c484e;
+    font-weight: 500;
+}
+#messages{
+    padding: 5px 0px 0px 0px;
+    font-weight: 500;
+    font-size: 17px;
+}
+.text-danger {
+    color: #dc3545!important;
+    font-size: 14px;
+    font-weight: 500;
+}
+table.table.table.sm,td,th {
+    border: 1px solid #dee2e6;
+}
+#modal-footer{
+    border-top: none;
+    padding: 0px 12px 19px 0px;
+}
+p.modalHeader {
+    font-weight: bold;
+}
+th{
+    color: #5c484e;
+}
+.no-data{
+    color: #5c484e
+}
