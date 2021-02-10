@@ -109,11 +109,11 @@
                             <td>{{data.email}}</td>
                             <td>{{data.mobile}}</td>
                             <td>{{data.location}}</td>
-                            <td>
+                            <td class="text-center">
                                 <button class="btn btn-primary" (click)="customerService.edit(data)">Edit</button>
                             </td>
-                            <td>
-                                <button class="btn btn-primary" (click)="delete(data.$key)">Delete</button>
+                            <td class="text-center">
+                                    <img (click)="delete(data.$key)" style="height: 27px;cursor: pointer;" class="img-fluid" src="assets/images/trash-alt-regular.svg" alt="">
                             </td>
                         </tr>
                     </ng-container>
